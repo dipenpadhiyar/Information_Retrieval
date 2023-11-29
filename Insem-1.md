@@ -1,6 +1,7 @@
 # Information Retrieval Insem-1 Paper DAIICT
 ### Question List
 
+### Part A: Multiple Choice Questions
 1. A data structure that maps terms back to the parts of a document in which they occur is called an:
    - (a) Postings list
    - (b) Incidence Matrix
@@ -74,3 +75,16 @@
     - **(c) It has no effect on the term frequencies of a few terms**
     - d. It has no effect on the term frequencies of all terms
     - Explanation: If the new documents do not contain those terms, the weights for those terms will remain unchanged.
+
+### Part B: Calculation Questions
+
+1. Calculate the TF/IDF matrix for the following three sentences:
+   - a. "I love big data processing but I hate Python."
+   - b. "I love Information Retrieval."
+   - c. "I love signal processing and Information Retrieval."
+
+2. Given query Q, the following document IDs are relevant w.r.t. query Q [1, 4, 5, 9, 11, 13, 14, 15, 19, 20, 21]. Given a retrieval system, it retrieves a set of documents. The table below consists of a list of retrieved documents along with their relevance judgments. Calculate the Precision, Recall, F1-score, and MAP score of the retrieval. Show all the steps that you use for calculating the metrics. Draw an interpolated precision-recall curve. There are 11 relevant documents in the collection for query Q.
+
+| Doc # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|-------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
+| Rel   | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |  0 |  1 |  0 |  1 |  1 |  1  |
